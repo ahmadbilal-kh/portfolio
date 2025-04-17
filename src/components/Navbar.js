@@ -1,13 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <div>
-      <nav class="navbar">
-      <div class="nav-left">
-        <a href="/" class="name-btn"><i>Ahmad Bilal</i></a>
+    <nav className="navbar">
+      <div className="nav-left">
+        <a href="/" className="name-btn"><i>Ahmad Bilal</i></a>
       </div>
-      <div class="nav-right">
+
+      <div className="menu-icon" onClick={toggleMenu}>☰</div>
+
+      <div className={`nav-right ${menuOpen ? 'active' : ''}`}>
         <a href="/">Home</a>
         <a href="#about">About</a>
         <a href="#eductaion">Education</a>
@@ -17,8 +25,7 @@ const Navbar = () => {
         <a href="#contact">Contact</a>
       </div>
     </nav>
-    </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

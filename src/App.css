@@ -40,7 +40,7 @@
 /* My CSS */
 
 * {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -137,6 +137,67 @@ body {
   box-shadow: 0 0 10px rgba(0, 240, 255, 0.3), 0 0 20px rgba(0, 240, 255, 0.2),
     0 0 40px rgba(76, 0, 255, 0.1);
   border-bottom: 1px solid rgba(0, 240, 255, 0.2);
+}
+
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 10px 20px;
+  color: white;
+  position: relative;
+}
+
+.nav-left .name-btn {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-right {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-right a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hamburger Icon - hidden on desktop */
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Responsive Style */
+@media (max-width: 786px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-right {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    transform: translateY(-20px);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+
+  .nav-right.active {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
 }
 
 /* Hero Section */
@@ -578,7 +639,7 @@ a {
 }
 
 .footer-columns {
-  flex: 3 1 600px;
+  flex: 4 800px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 30px;

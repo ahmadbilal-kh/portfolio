@@ -16,6 +16,9 @@ const Footer = () => {
               <h3>Navigation</h3>
               <ul>
                 <li>
+                  <a href="#home">Home</a>
+                </li>
+                <li>
                   <a href="#about">About</a>
                 </li>
                 <li>
@@ -23,9 +26,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="#projects">Projects</a>
-                </li>
-                <li>
-                  <a href="#home">Home</a>
                 </li>
               </ul>
             </div>
@@ -41,6 +41,11 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
+                  <li>
+                    <a href="https://github.com/ahmadbilal-kh" target="_blank">
+                      GitHub
+                    </a>
+                  </li>
                   <a
                     href="https://www.linkedin.com/in/ahmad-bilal-2b740a2b6/"
                     target="_blank"
@@ -48,24 +53,13 @@ const Footer = () => {
                     LinkedIn
                   </a>
                 </li>
-                <li>
-                  <a href="https://github.com/ahmadbilal-kh" target="_blank">
-                    GitHub
-                  </a>
-                </li>
               </ul>
             </div>
             <div className="footer-column">
               <h3>Contact</h3>
               <ul>
-                <li>
-                  <a href="mailto:youremail@example.com">
-                    ahmad.bilal.kh046@gamil.com
-                  </a>
-                </li>
-                <li>
-                  <a href="tel:+1234567890">+92 321 884 443</a>
-                </li>
+                <li>ahmad.bilal.kh046@gmail.com</li>
+                <li>+923218844433</li>
               </ul>
             </div>
             <div className="footer-column">
