@@ -122,7 +122,6 @@ body {
   width: 100%;
 }
 
-
 /* Navbar Styles */
 .navbar {
   display: flex;
@@ -147,7 +146,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 60px 40px;
-  text-decoration: none;
 }
 
 .hero-left {
