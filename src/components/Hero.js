@@ -1,27 +1,98 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "../components/images/ahmad.jpg";
 
 const Hero = () => {
+  const roles = [
+    "Software Engineer",
+    "Web Developer",
+    "MERN Stack Developer",
+    "UI/UX Designer",
+  ];
+  const [index, setIndex] = useState(0);
+  const [subIndex, setSubIndex] = useState(0);
+  const [deleting, setDeleting] = useState(false);
+  const [blink, setBlink] = useState(true);
+  const [pause, setPause] = useState(false);
+
+  useEffect(() => {
+    if (pause) return;
+
+    if (subIndex === roles[index].length + 1 && !deleting) {
+      setPause(true);
+      setTimeout(() => setDeleting(true), 1000);
+      return;
+    }
+
+    if (subIndex === 0 && deleting) {
+      setDeleting(false);
+      setIndex((prev) => (prev + 1) % roles.length);
+      return;
+    }
+
+    const timeout = setTimeout(
+      () => {
+        setSubIndex((prev) => prev + (deleting ? -1 : 1));
+      },
+      deleting ? 50 : 120
+    );
+
+    return () => clearTimeout(timeout);
+  }, [subIndex, index, deleting, pause]);
+
+  useEffect(() => {
+    if (pause) {
+      const timeout = setTimeout(() => setPause(false), 800);
+      return () => clearTimeout(timeout);
+    }
+  }, [pause]);
+
+  useEffect(() => {
+    const blinkInterval = setInterval(() => {
+      setBlink((prev) => !prev);
+    }, 500);
+    return () => clearInterval(blinkInterval);
+  }, []);
+
   return (
     <div>
       <section className="hero">
-        <div className="hero-left">
+        <div className="hero-left" data-aos="zoom-in">
           <h1>
             Hi, I'm <span className="glow-name">Ahmad Bilal</span>
           </h1>
+          <h3 className="typewriter-text">
+            I'm a{" "}
+            <span className="role-text">
+              {roles[index].substring(0, subIndex)}
+            </span>
+            <span className="cursor">{blink ? "|" : " "}</span>
+          </h3>
 
-          <p>I'm a passinate Web Developer. Lets build something together!</p>
-          <button className="btn">
-            <a href="#contact">Contact Me</a>
-          </button>
+          <div className="hero-buttons">
+            <a href="#contact" className="btn">
+              Contact Me
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1_KY9_798AR7sp3G19RWWGvotyds-8rWx/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn view-btn btn-resume"
+            >
+              View & Download Resume
+            </a>
+          </div>
         </div>
 
         <div className="hero-right">
-          <img src={Image} alt="" />
+          <img
+            data-aos="fade-up"
+            data-aos-delay="200"
+            src={Image}
+            alt="Ahmad"
+          />
         </div>
       </section>
     </div>
   );
 };
-
 export default Hero;

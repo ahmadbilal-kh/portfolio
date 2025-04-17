@@ -7,9 +7,11 @@ import weather from "../components/images/weather-app.jpg";
 const Projects = () => {
   return (
     <>
-      <div class="section-glow-end"></div>
+      <div class="section-glow-end" data-aos="fade-down"></div>
       <section class="projects" id="projects">
-        <h2 class="section-title">Projects</h2>
+        <h2 class="section-title" data-aos="zoom-out">
+          Projects
+        </h2>
         <div class="projects-grid">
           <div class="project-card">
             <img src={Moshy} alt="Project 1" />
