@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <div className="section-glow-end"></div>
+      <div className="section-glow-end" data-aos="zoom-in"></div>
       <footer className="footer">
         <div className="footer-container">
           <div className="footer-logo">

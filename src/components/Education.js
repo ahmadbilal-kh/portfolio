@@ -3,13 +3,8 @@ import React from "react";
 const Education = () => {
   return (
     <div>
-      <div class="section-glow-end" data-aos="fade-down"></div>
-      <div
-        className="education"
-        id="eductaion"
-        data-aos="fade-up"
-        data-aos-duration="3000"
-      >
+      <div class="section-glow-end" data-aos="zoom-in"></div>
+      <div className="education" id="education">
         <h2 className="section-title">Education</h2>
         <div className="education-item">
           <h3>Intermediate (ICS Computer Science)</h3>

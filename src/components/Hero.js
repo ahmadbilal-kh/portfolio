@@ -56,6 +56,7 @@ const Hero = () => {
 
   return (
     <div>
+      <div className="section-glow-end" data-aos="zoom-in"></div>
       <section className="hero">
         <div className="hero-left" data-aos="zoom-in">
           <h1>
@@ -84,13 +85,8 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="hero-right">
-          <img
-            data-aos="fade-up"
-            data-aos-delay="200"
-            src={Image}
-            alt="Ahmad"
-          />
+        <div className="hero-right" data-aos="zoom-in">
+          <img src={Image} alt="Ahmad" />
         </div>
       </section>
     </div>

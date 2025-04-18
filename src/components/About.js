@@ -3,13 +3,8 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <div className="section-glow-end" data-aos="fade-down"></div>
-      <div
-        className="about"
-        id="about"
-        data-aos-duration="1200"
-        data-aos="zoom-out-down"
-      >
+      <div className="section-glow-end" data-aos="zoom-in"></div>
+      <div className="about" id="about" data-aos="zoom-in">
         <h2 className="section-title">About</h2>
         <p className="about-text">
           I'm <span className="glow-name">Ahmad Bilal</span>, a passionate Web
