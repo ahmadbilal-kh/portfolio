@@ -7,6 +7,7 @@ const Hero = () => {
     "Web Developer",
     "MERN Stack Developer",
     "React & Next Developer",
+    "PHP Developer",
     "UI/UX Designer",
   ];
   const [index, setIndex] = useState(0);

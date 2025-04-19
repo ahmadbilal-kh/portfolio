@@ -3,14 +3,11 @@ import React from "react";
 const Education = () => {
   return (
     <div>
-      <div class="section-glow-end" data-aos="zoom-in"></div>
+      <div className="section-glow-end" data-aos="zoom-in"></div>
       <div className="education" id="education">
         <h2 className="section-title">Education</h2>
         <div className="education-item">
-          <h3>Intermediate (ICS Computer Science)</h3>
-          <p>
-            Completed in <span className="glow-name">2022</span>
-          </p>
+          <h3>Intermediate (ICS in Computer Science)</h3>
           <p>
             Studied core science subjects including Computer, Statistics, and
             Economics, building a strong foundation for problem-solving and
@@ -19,9 +16,6 @@ const Education = () => {
         </div>
         <div className="education-item">
           <h3>Bachelor of Science in Software Engineering (BSSE)</h3>
-          <p>
-            Expected Graduation: <span className="glow-name">2026</span>
-          </p>
           <p>
             Pursuing a Bachelor of Science in Software Engineering with a focus
             on full-stack web development, data structures, and software

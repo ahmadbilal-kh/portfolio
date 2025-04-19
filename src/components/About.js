@@ -8,13 +8,18 @@ const About = () => {
         <h2 className="section-title">About</h2>
         <p className="about-text">
           I'm <span className="glow-name">Ahmad Bilal</span>, a passionate Web
-          Developer with over 1.5 years of hands-on experience crafting modern,
-          responsive, and dynamic web applications. My skillset spans across
-          HTML, CSS, JavaScript, React, Node.js, Next.js, Redux, MongoDB, PHP,
-          and WordPress. I love turning ideas into real-life products that are
-          not only visually appealing but also user-friendly and high
-          performing. I'm always eager to learn, collaborate, and contribute to
-          projects that make a difference.
+          Developer with over <span className="glow-name"> 1.5 </span>years of
+          hands-on experience crafting modern, responsive, and dynamic web
+          applications. My skillset spans across
+          <span className="glow-name">
+            {" "}
+            HTML, CSS, Tailwind, Bootstrap, JavaScript, TypeScript, React,
+            Node.js, Next.js, MongoDB, PHP, SQL, MySQL and related technologies
+          </span>
+          . I love turning ideas into real-life products that are not only
+          visually appealing but also user-friendly and high performing. I'm
+          always eager to learn, collaborate, and contribute to projects that
+          make a difference.
         </p>
       </div>
     </div>

@@ -16,6 +16,10 @@ html {
   }
 }
 
+#about {
+  scroll-margin-top: 120px; /* Adjust based on your navbar height */
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -145,6 +149,7 @@ body {
 .hero-left {
   flex: 1;
   max-width: 600px;
+  margin-left: 30px;
 }
 
 .hero-left h1 {
@@ -296,9 +301,8 @@ body {
 }
 
 .hero-right img {
-  width: 100%;
   max-width: 300px;
-  border-radius: 20px;
+  border-radius: 50%;
   border: 5px solid #00f0ff;
   box-shadow: 0 0 20px #00f0ff;
   transition: 0.3s ease;
@@ -322,7 +326,6 @@ body {
   }
   .hero-left,
   .hero-right {
-    width: 100%;
     max-width: 100%;
   }
 
@@ -455,6 +458,7 @@ body {
 }
 
 /* Projects Section */
+
 .projects {
   background: #111;
   color: #fff;
@@ -721,8 +725,8 @@ a {
 
 .section-glow-end {
   height: 4px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin: 0;
+  padding: 2px;
   background: linear-gradient(to right, #4c00ff, #00f0ff);
   box-shadow: 0 0 20px #00f0ff, 0 0 40px #4c00ff;
   border-radius: 10px;

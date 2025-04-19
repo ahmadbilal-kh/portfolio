@@ -7,6 +7,10 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const handleLinkClick = () => {
+    setMenuOpen(false); // Close the menu when a link is clicked
+  };
+
   return (
     <nav className="navbar">
       <div className="nav-left">
@@ -20,13 +24,27 @@ const Navbar = () => {
       </div>
 
       <div className={`nav-right ${menuOpen ? "active" : ""}`}>
-        <a href="/">Home</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a> {/* 🔧 fixed typo */}
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+        <a href="/" onClick={handleLinkClick}>
+          Home
+        </a>
+        <a href="#about" onClick={handleLinkClick}>
+          About
+        </a>
+        <a href="#education" onClick={handleLinkClick}>
+          Education
+        </a>
+        <a href="#skills" onClick={handleLinkClick}>
+          Skills
+        </a>
+        <a href="#projects" onClick={handleLinkClick}>
+          Projects
+        </a>
+        <a href="#services" onClick={handleLinkClick}>
+          Services
+        </a>
+        <a href="#contact" onClick={handleLinkClick}>
+          Contact
+        </a>
       </div>
     </nav>
   );

@@ -33,23 +33,16 @@ const Footer = () => {
               <h3>Social</h3>
               <ul>
                 <li>
-                  <a
-                    href="https://web.facebook.com/profile.php?id=61555792959559"
-                    target="_blank"
-                  >
+                  <a href="https://web.facebook.com/profile.php?id=61555792959559">
                     Facebook
                   </a>
                 </li>
+
                 <li>
-                  <li>
-                    <a href="https://github.com/ahmadbilal-kh" target="_blank">
-                      GitHub
-                    </a>
-                  </li>
-                  <a
-                    href="https://www.linkedin.com/in/ahmad-bilal-2b740a2b6/"
-                    target="_blank"
-                  >
+                  <a href="https://github.com/ahmadbilal-kh">GitHub</a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/ahmad-bilal-2b740a2b6/">
                     LinkedIn
                   </a>
                 </li>
