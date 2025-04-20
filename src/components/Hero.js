@@ -72,14 +72,14 @@ const Hero = () => {
           </h3>
 
           <div className="hero-buttons">
-            <a href="#contact" className="btn">
+            <a href="#contact" className="btn project-btn">
               Contact Me
             </a>
             <a
               href="https://drive.google.com/file/d/1_KY9_798AR7sp3G19RWWGvotyds-8rWx/view"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn view-btn btn-resume"
+              className="btn view-btn btn-resume project-btn"
             >
               View & Download Resume
             </a>

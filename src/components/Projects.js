@@ -20,11 +20,13 @@ const Projects = () => {
               Modern portfolio built with React and related technologies for
               show case my skills and experience.
             </p>
-            <button className="project-btn">
-              <a href="https://ahmadbilal-kh-portfolio.vercel.app/">
-                View Project
-              </a>
-            </button>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://ahmadbilal-kh-portfolio.vercel.app/"
+            >
+              <button className="project-btn">View Project</button>
+            </a>
           </div>
           <div className="project-card">
             <img src={Moshy} alt="Project 1" />
@@ -33,9 +35,13 @@ const Projects = () => {
               A responsive website for client built using HTML, CSS, and
               JavaScript with glowing UI effects.
             </p>
-            <button className="project-btn">
-              <a href="https://moshifyed-kh.netlify.app/">View Project</a>
-            </button>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://moshifyed-kh.netlify.app/"
+            >
+              <button className="project-btn">View Project</button>
+            </a>
           </div>
           <div className="project-card">
             <img src={ReactStater} alt="Project 2" />
@@ -44,9 +50,13 @@ const Projects = () => {
               Modern website built with React, Redux, and Node.js for seamless
               user-friendly experience.
             </p>
-            <button className="project-btn">
-              <a href="https://react-starter-kh.vercel.app/">View Project</a>
-            </button>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://react-starter-kh.vercel.app/"
+            >
+              <button className="project-btn">View Project</button>
+            </a>
           </div>
           <div className="project-card">
             <img src={Quiz} alt="Project 2" />
@@ -55,9 +65,13 @@ const Projects = () => {
               Modern quiz-app website built with React and related technologies
               for checking student minds.
             </p>
-            <button className="project-btn">
-              <a href="https://quiz-app-kh.vercel.app/">View Project</a>
-            </button>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://quiz-app-kh.vercel.app/"
+            >
+              <button className="project-btn">View Project</button>
+            </a>
           </div>
           <div className="project-card">
             <img src={weather} alt="Project 2" />
@@ -66,9 +80,13 @@ const Projects = () => {
               Modern weather website built with React and related technologies
               for checking weather.
             </p>
-            <button className="project-btn">
-              <a href="https://weather-kh.vercel.app/">View Project</a>
-            </button>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://weather-kh.vercel.app/"
+            >
+              <button className="project-btn">View Project</button>
+            </a>
           </div>
           <div className="project-card">
             <img src={Typing} alt="Project 2" />
@@ -77,9 +95,13 @@ const Projects = () => {
               Modern typing speed tester built with React and related
               technologies for checking user typing speed.
             </p>
-            <button className="project-btn">
-              <a href="https://typing-speed-kh.vercel.app/">View Project</a>
-            </button>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://typing-speed-kh.vercel.app/"
+            >
+              <button className="project-btn">View Project</button>
+            </a>
           </div>
         </div>
       </section>
