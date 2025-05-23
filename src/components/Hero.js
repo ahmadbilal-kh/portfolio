@@ -5,9 +5,7 @@ const Hero = () => {
   const roles = [
     "Software Engineer",
     "Web Developer",
-    "MERN Stack Developer",
-    "React & Next Developer",
-    "PHP Developer",
+    "App Developer",
     "UI/UX Designer",
   ];
   const [index, setIndex] = useState(0);
@@ -76,7 +74,7 @@ const Hero = () => {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/1_KY9_798AR7sp3G19RWWGvotyds-8rWx/view"
+              href="https://drive.google.com/file/d/1_aToRy_v261lrahD2fGulYUIIat78-qw/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="btn view-btn btn-resume project-btn"
