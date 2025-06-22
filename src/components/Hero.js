@@ -74,7 +74,7 @@ const Hero = () => {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/1_aToRy_v261lrahD2fGulYUIIat78-qw/view?usp=sharing"
+              href="https://drive.google.com/file/d/16OclJpUOonUEp98xsMH6UNnVU7WB8FFf/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="btn view-btn btn-resume project-btn"
