@@ -8,7 +8,7 @@ const About = () => {
         <h2 className="section-title">About</h2>
         <p className="about-text">
           I'm <span className="glow-name">Ahmad Bilal</span>, a passionate Web
-          Developer with over <span className="glow-name"> 1.5 </span>years of
+          Developer with over <span className="glow-name"> 2 </span>years of
           hands-on experience crafting modern, responsive, and dynamic web
           applications. My skillset spans across
           <span className="glow-name">
