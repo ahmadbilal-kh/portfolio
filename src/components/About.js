@@ -14,10 +14,12 @@ const About = () => {
           <span className="glow-name">
             {" "}
             HTML, CSS, Tailwind, Bootstrap, JavaScript, TypeScript, React,
-            Node.js, Next.js, MongoDB, PHP, SQL, MySQL and related technologies
+            Node.js, Next.js, MongoDB, PHP, SQL, MySQL, and related technologies. 
           </span>
-          . I love turning ideas into real-life products that are not only
-          visually appealing but also user-friendly and high performing. I'm
+          I also know Virtual Assistant, Data Entry, and Graphic design tools like <span className="glow-name">
+            {" "} Figma, Canva, Photoshop, Illustrator, and related tools. </span>
+          I love turning ideas into real-life products that are not only
+          visually appealing but also user-friendly and high-performing. I'm
           always eager to learn, collaborate, and contribute to projects that
           make a difference.
         </p>
@@ -27,3 +29,4 @@ const About = () => {
 };
 
 export default About;
+
