@@ -80,7 +80,7 @@ const Skills = () => {
             <div className="progress">
               <div className="bar"></div>
             </div>
-          </div>>
+          </div>
           <div className="skill">
             <span>WordPress</span>
             <div className="progress">
@@ -118,5 +118,6 @@ const Skills = () => {
 };
 
 export default Skills;
+
 
 
