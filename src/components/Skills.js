@@ -79,6 +79,42 @@ const Skills = () => {
               <div className="bar"></div>
             </div>
           </div>
+        <div className="skill">
+            <span>My SQL</span>
+            <div className="progress">
+              <div className="bar"></div>
+            </div>
+          </div>
+    <div className="skill">
+            <span>WordPress</span>
+            <div className="progress">
+              <div className="bar"></div>
+            </div>
+          </div>
+    <div className="skill">
+            <span>Graphic Designing</span>
+            <div className="progress">
+              <div className="bar"></div>
+            </div>
+          </div>
+    <div className="skill">
+            <span>Data Entry</span>
+            <div className="progress">
+              <div className="bar"></div>
+            </div>
+          </div>
+    <div className="skill">
+            <span>Accountant</span>
+            <div className="progress">
+              <div className="bar"></div>
+            </div>
+          </div>
+    <div className="skill">
+            <span>Virtual Assistance</span>
+            <div className="progress">
+              <div className="bar"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -86,3 +122,4 @@ const Skills = () => {
 };
 
 export default Skills;
+
