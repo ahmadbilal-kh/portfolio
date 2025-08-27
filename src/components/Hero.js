@@ -5,8 +5,9 @@ const Hero = () => {
   const roles = [
     "Software Engineer",
     "Web Developer",
-    "App Developer",
-    "UI/UX Designer",
+    "Graphic Designer",
+    "Virtual Assistance",
+    "Data Entry Specialist"
   ];
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
@@ -74,12 +75,12 @@ const Hero = () => {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/1upL9wi1LRHzpfhKVrirX3MsNpnjTxuFn/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Vl1KPWErmAqtkjEkUJ3adutd_v3Qgm4n/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="btn view-btn btn-resume project-btn"
             >
-              View & Download Resume
+              Download Resume
             </a>
           </div>
         </div>
@@ -92,3 +93,4 @@ const Hero = () => {
   );
 };
 export default Hero;
+
