@@ -31,6 +31,12 @@ const Skills = () => {
               <div className="bar"></div>
             </div>
           </div>
+            <div className="skill">
+            <span>TypeScript</span>
+            <div className="progress">
+              <div className="bar"></div>
+            </div>
+          </div>
           <div className="skill">
             <span>React JS</span>
             <div className="progress">
@@ -43,24 +49,14 @@ const Skills = () => {
               <div className="bar"></div>
             </div>
           </div>
-          <div className="skill">
-            <span>MongoDB</span>
-            <div className="progress">
-              <div className="bar"></div>
-            </div>
-          </div>
+          
           <div className="skill">
             <span>Node JS</span>
             <div className="progress">
               <div className="bar"></div>
             </div>
           </div>
-          <div className="skill">
-            <span>TypeScript</span>
-            <div className="progress">
-              <div className="bar"></div>
-            </div>
-          </div>
+          
           <div className="skill">
             <span>PHP</span>
             <div className="progress">
@@ -80,36 +76,36 @@ const Skills = () => {
             </div>
           </div>
         <div className="skill">
-            <span>My SQL</span>
+            <span>MongoDB</span>
             <div className="progress">
               <div className="bar"></div>
             </div>
-          </div>
-    <div className="skill">
+          </div>>
+          <div className="skill">
             <span>WordPress</span>
             <div className="progress">
               <div className="bar"></div>
             </div>
           </div>
-    <div className="skill">
+          <div className="skill">
             <span>Graphic Designing</span>
             <div className="progress">
               <div className="bar"></div>
             </div>
           </div>
-    <div className="skill">
+          <div className="skill">
             <span>Data Entry</span>
             <div className="progress">
               <div className="bar"></div>
             </div>
           </div>
-    <div className="skill">
+          <div className="skill">
             <span>Accountant</span>
             <div className="progress">
               <div className="bar"></div>
             </div>
           </div>
-    <div className="skill">
+            <div className="skill">
             <span>Virtual Assistance</span>
             <div className="progress">
               <div className="bar"></div>
@@ -122,4 +118,5 @@ const Skills = () => {
 };
 
 export default Skills;
+
 
