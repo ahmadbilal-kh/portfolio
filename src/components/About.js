@@ -16,7 +16,7 @@ const About = () => {
             HTML, CSS, Tailwind, Bootstrap, JavaScript, TypeScript, React,
             Node.js, Next.js, MongoDB, PHP, SQL, MySQL, and related technologies. 
           </span>
-          I also know Virtual Assistant, Data Entry, and Graphic design tools like <span className="glow-name">
+          I also know <span className="glow-name"> Virtual Assistance, Accountant, Data Entry, and Graphic design tools like 
             {" "} Figma, Canva, Photoshop, Illustrator, and related tools. </span>
           I love turning ideas into real-life products that are not only
           visually appealing but also user-friendly and high-performing. I'm
@@ -29,4 +29,5 @@ const About = () => {
 };
 
 export default About;
+
 
