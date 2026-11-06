@@ -6,6 +6,7 @@ import weather from "../components/images/weather-app.jpg";
 import Typing from "../components/images/Typing Speed Test.png";
 import portfolio from "../components/images/portfolio.png";
 import Clinic from "../components/images/clinic.png";
+import dinenova from "../components/images/dinenova.png";
 
 const Projects = () => {
   return (
@@ -14,6 +15,21 @@ const Projects = () => {
       <section className="projects" id="projects">
         <h2 className="section-title">Projects</h2>
         <div className="projects-grid">
+          <div className="project-card">
+            <img src={dinenova} />
+            <h3>Dine Nova Restaurant</h3>
+            <p>
+              Modern restaurant website built with Next and related technologies
+              for online ordering and reservation.
+            </p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://rms-system-kh.vercel.app//"
+            >
+              <button className="project-btn">View Project</button>
+            </a>
+          </div>
           <div className="project-card">
             <img src={Clinic} />
             <h3>Clinic scheduler</h3>
